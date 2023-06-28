@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, source-code-pro, Menlo, Monaco, Consolas, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Courier New', monospace, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+}

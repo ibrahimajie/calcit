@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea';
+    gap: 5px;
+}
+
+.grid-container>div {
+    text-align: center;
+}
+
+.item1 {
+    grid-area: myArea;
+    font-size: 32px;
+    height: 32px;
+}
+
+.disabled {
+    pointer-events: none;
+}
